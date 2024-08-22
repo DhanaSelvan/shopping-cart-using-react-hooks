@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper, .cart-items-wrapper{
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    padding: 16px;
+    background-color: cornsilk;
+    height: fit-content;
+    border-radius: 24px 24px 8px 8px;
+    box-shadow: 0px 4px 16px 1px rgba(0, 0, 0, 0.2);
+    margin: 16px;
+}
+
+.img {
+    width: 252px;
+    height: 150px;
+    border-radius: 8px 8px 4px 4px;
+}
+
+.card-img{
+    width: 252px;
+}
+
+.card-title{
+    margin-top: 16px;
+    color: orangered;
+}
+
+.card-action {
+    margin-top: 16px;
+}
+
+.btn {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.add-btn {
+    background-color: springgreen;
+}
+
+.remove-btn {
+    background-color: crimson;
+    color: white;
+    margin-left: 8px;
+}
+
+.title {
+    text-align: center;
+}
+
+.qty-card {
+    width: 250px;
+    height: 126px;
+    border-radius: 4px;
+    padding: 16px;
+    margin: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    background-color: white;
+    border: 1px solid teal;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.qty-card h2 {
+    color: slateblue;
+}
